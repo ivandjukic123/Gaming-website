@@ -1,0 +1,103 @@
+#instagram{
+    padding-top: 70px;
+    text-align: center;
+    background-color: white;
+    color: #333333;
+
+    h1{
+        font-size: 60px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 50px;
+    }
+
+
+    .col-md-4{
+        height: 470px;
+        background-position: center;
+        background-size: cover;
+
+        &:hover {
+            transition: 0.3s;
+  
+            .overlay {
+              background-color: rgba($color: white, $alpha: 0.7);
+              display: block;
+            }
+          }
+
+        &.insta1{
+            background-image: url("/img/source/insta1.jpeg");
+            width: 100%;
+        }
+
+        &.insta2{
+            background-image: url("/img/source/medium.jpeg");
+            width: 100%;
+        }
+
+        &.insta3{
+            background-image: url("/img/source/insta3.jpeg");
+            width: 100%; 
+        }
+
+        &.insta4{
+            background-image: url("/img/source/insta4.jpeg");
+            width: 100%; 
+        }
+
+        &.insta5{
+            background-image: url("/img/source/insta2.jpeg");
+            width: 100%; 
+        }
+
+        &.insta6{
+            background-image: url("/img/source/insta5.jpeg");
+            width: 100%; 
+        }
+    }
+
+    .overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        i{
+            font-size: 40px;
+            color: #333333;
+            margin-top: 200px;
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .col-md-4 {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+  }

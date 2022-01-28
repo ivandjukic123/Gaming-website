@@ -1,4 +1,4 @@
-# website-Gaming
+# Gaming-website
 
 - Gaming Hardware Website Project.
 - Sass with clean design and animations.

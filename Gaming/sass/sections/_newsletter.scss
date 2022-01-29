@@ -1,0 +1,54 @@
+#newsletter {
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-family: $roboto;
+  padding-bottom: 120px;
+
+  h4 {
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #cfcfcf;
+    background-image: -webkit-linear-gradient(145deg, #a2fe73, #35fdb2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+  }
+
+  input {
+    font-family: $roboto;
+    font-weight: 300;
+    text-align: center;
+    width: 270px;
+    font-size: 17px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #cfcfcf;
+    color: #cfcfcf;
+    margin-top: 40px;
+    background-color: transparent;
+
+    &::placeholder{
+      font-size: 20px;
+    }
+
+    &:focus {
+      border-color: green;
+    }
+  }
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}

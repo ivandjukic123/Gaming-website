@@ -218,7 +218,8 @@ html, body {
 }
 
 #products .container .row .block {
-  background-image: url("img/source/lighter--StH5ln.jpeg");
+  background-image: url("Gaming-website/img/source/lighter--StH5ln.jpeg");
+
   background-position: right;
   background-size: cover;
   height: 570px;
@@ -228,13 +229,13 @@ html, body {
 }
 
 #products .container .row .block.headphones {
-  background-image: url("img/source/lighter--EF9Q6Y.jpeg");
+  background-image: url("Gaming-website/img/source/lighter--EF9Q6Y.jpeg");
   background-position: center;
   border-left: none;
 }
 
 #products .container .row .block.mouse {
-  background-image: url("img/source/lighter--Ay4ty9.jpeg");
+  background-image: url("Gaming-website/img/source/lighter--Ay4ty9.jpeg");
   background-position: center;
   border-top: none;
 }
@@ -259,7 +260,7 @@ html, body {
 }
 
 #products .container .row .second .col-md-12 {
-  background-image: url("./img/source/keyboard-white.jpeg");
+  background-image: url("Gaming-website/img/source/keyboard-white.jpeg");
   background-position: bottom;
   background-size: cover;
   height: 285px;

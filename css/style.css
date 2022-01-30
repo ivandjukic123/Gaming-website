@@ -512,7 +512,7 @@ html, body {
 }
 
 @media (min-width: 992px) {
-  p {
+  #instagram p {
     padding-left: 25%;
     padding-right: 25%;
   }
